@@ -1,3 +1,38 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.main-bg{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.d-flex{
+    display: flex;
+}
+.col-2{
+    width: 50%;
+    padding: 0 5%;
+}
+.right-bg img{
+    width: 100%;
+}
+.main-content{
+    padding-top: 50px;
+}
+.main-content h2{
+    font-size: 40px;
+}
+.main-content h2 span{
+    color: orange;
+}
+.btn{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    background: linear-gradient(purple, orange);
+    padding: 10px 35px;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: inline-block;
 }
