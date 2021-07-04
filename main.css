@@ -5,7 +5,13 @@ body{
 .main-bg{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 150px;
 
+}
+.dream-bg{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .d-flex{
     display: flex;
@@ -19,6 +25,7 @@ body{
 }
 .main-content{
     padding-top: 50px;
+
 }
 .main-content h2{
     font-size: 40px;
@@ -30,9 +37,31 @@ body{
     text-decoration: none;
     text-transform: capitalize;
     color: white;
-    background: linear-gradient(purple, orange);
+    background: linear-gradient(#c0392b, #8e44ad);
     padding: 10px 35px;
     border-radius: 5px;
     margin-top: 15px;
     display: inline-block;
+}
+
+/* experience area */
+.experience-area{
+    padding: 100px 0;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp h4{
+    color: orange;
+}
+.exp{
+    border-radius: 5px;
+    padding: 30px 25px;
+    box-shadow: 10px 10px 10px 10px #ddd;
+    border-left: 7px solid;
+    border-image: linear-gradient(#fc4a1a, #f7b733)1;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
